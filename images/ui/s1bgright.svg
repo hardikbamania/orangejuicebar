@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 834.302 969.607">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-2 {
+        filter: url(#s1bgright);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="0.607" y1="0.454" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ffca28"/>
+      <stop offset="1" stop-color="#ff0"/>
+    </linearGradient>
+    <filter id="s1bgright" x="0" y="0" width="834.302" height="969.607" filterUnits="userSpaceOnUse">
+      <feOffset dy="10" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g class="cls-2" transform="matrix(1, 0, 0, 1, 0, 0)">
+    <path id="s1bgright-2" data-name="s1bgright" class="cls-1" d="M723.5-27.17S561.48,86.586,751.441,261.587,928.589,436.76,883.879,535.5s-38.2,133.772,90.731,219.619,307.1,138.348,404.645,85.847,33.533-476.332,33.533-534.666V-47.663Z" transform="translate(-629.11 67.66)"/>
+  </g>
+</svg>
